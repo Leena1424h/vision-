@@ -1,0 +1,190 @@
+.text-animation:hover {
+    animation: moveText 0.5s ease-in-out;
+}
+
+@keyframes moveText {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10px); }
+}
+.background-color-change:hover {
+    background-color: #b89878;
+}
+.text-glow {
+    color: #fff;
+    text-shadow: 0 0 5px #b89878;
+}
+.image-glow {
+    box-shadow: 0 0 20px #b89878;
+}
+.scale-up:hover {
+    transform: scale(1.1);
+}
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.move-up:hover {
+    transform: translateY(-10px);
+}
+.shadow:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.color-change:hover {
+    color: #b89878;
+}
+.transparent:hover {
+    opacity: 0.7;
+}
+
+
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f2;
+    color: #4e443c;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #b89878;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+section.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+section.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #b89878;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #a57b56;
+}
+
+section.featured-books {
+    padding: 50px 0;
+}
+
+section.featured-books h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.book {
+    background-color: #f3ede8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.book h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.book p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.book .price {
+    font-weight: bold
+
+    .btn {
+        transition: background-color 0.3s ease; /* تأثير الانتقال */
+    }
+    
+    .btn:hover {
+        background-color: #b89878; /* تغيير لون الخلفية عند التحويم */
+    }
+    
+
+    .container {
+        width: 80%; /* عرض الواجهة */
+        margin-right: 50px; /* تباعد بين الواجهة والمحتوى */
+    }
+    
+    .about-us {
+        background-color: #f3ede8; /* لون خلفية قسم من نحن */
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .about-us h2 {
+        color: #4e443c; /* لون العنوان */
+        font-size: 24px; /* حجم الخط للعنوان */
+    }
+    
+    .about-us p {
+        color: #4e443c; /* لون النص */
+        font-size: 18px; /* حجم الخط للنص */
+    }
+    
+    .books-container {
+        display: flex;
+    }
+    
+    .book {
+        margin-right: 20px; /* ترتيب الكتب بين بعضها */
+    }
+    
